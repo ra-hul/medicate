@@ -1,0 +1,15 @@
+.serivices-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+
+}
+
+.Card-container img {
+    height: 500px;
+    width: 500px;
+}
+
+.backGround {
+    background-color: white;
+}
