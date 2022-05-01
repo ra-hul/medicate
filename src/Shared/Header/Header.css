@@ -1,0 +1,19 @@
+.Nav {
+
+    background-color: darkblue;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+
+.Nav>a {
+    color: white !important;
+    text-decoration: none !important;
+    padding: 9px !important;
+    cursor: pointer;
+    border-radius: 5px;
+}
