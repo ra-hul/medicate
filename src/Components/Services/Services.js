@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardGroup } from 'react-bootstrap';
+import { Button, Card, CardGroup } from 'react-bootstrap';
 import './Services.css';
 
 const Services = ({ se }) => {
@@ -10,13 +10,13 @@ const Services = ({ se }) => {
                 <Card className='Card-border'>
                     <Card.Img variant="top" src={image} />
                     <Card.Body>
-                        <Card.Title>{title}</Card.Title>
+                        <Card.Title style={{ backgroundColor: '#0d47a1', color: 'white', padding: '5px', borderRadius: '5px' }}>{title}</Card.Title>
                         <Card.Text style={{ backgroundColor: '#8ed1fc', borderRadius: '5px' }}>
                             {details}
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted">{title_1stLetter}</small>
+                        <Button>{title_1stLetter}</Button>
                     </Card.Footer>
                 </Card>
 
