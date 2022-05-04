@@ -1,3 +1,31 @@
+.apointment {
+    display: flex;
+}
+
+.Form {
+    margin-left: 50px;
+}
+
 .form-box {
     width: 300px;
+}
+
+.submit-box {
+    padding: 12px 30px;
+    margin-left: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--title-fonts);
+    text-transform: uppercase;
+    color: white !important;
+    display: inline-block;
+
+}
+
+.appointment-textarea {
+    height: 100px;
+    width: 300px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    background-color: aliceblue;
 }
