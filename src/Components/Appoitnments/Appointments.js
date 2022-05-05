@@ -5,8 +5,8 @@ import doctor from '../../images/doctor-.png'
 
 const Appointments = () => {
     return (
-        <div className='apointment'>
-            <img style={{ height: '500px', width: '500px' }} src={doctor} alt="" />
+        <div className='appointment'>
+
 
             <Form className='Form'>
 
@@ -64,6 +64,7 @@ const Appointments = () => {
 
 
             </Form>
+            <img style={{ height: '500px', width: '500px', marginLeft: "200px" }} src={doctor} alt="" />
         </div>
     );
 };

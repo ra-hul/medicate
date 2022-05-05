@@ -1,9 +1,10 @@
-.apointment {
+.appointment {
     display: flex;
 }
 
 .Form {
-    margin-left: 50px;
+    margin-left: 300px;
+
 }
 
 .form-box {

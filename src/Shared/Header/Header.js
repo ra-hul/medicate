@@ -21,12 +21,12 @@ const Header = () => {
                         <Navbar.Brand >Medicate</Navbar.Brand>
                         <Navbar.Toggle />
                         <Navbar.Collapse className="justify-content-end">
-                            <Nav.Link href='/home'>Home</Nav.Link>
-                            <Nav.Link href='/Appointments'>Appointments</Nav.Link>
-                            <Nav.Link href='/about'>About</Nav.Link>
-                            <Nav.Link href='contact_us'>Contact Us</Nav.Link>
-                            <Nav.Link href='/doctors'>Doctors</Nav.Link>
-                            <Nav.Link href='/login'>Login</Nav.Link>
+                            <Nav.Link href='/home' className='text'>Home</Nav.Link>
+                            <Nav.Link href='/Appointments' className='text'>Appointments</Nav.Link>
+                            <Nav.Link href='/about' className='text'>About</Nav.Link>
+                            <Nav.Link href='contact_us' className='text'>Contact Us</Nav.Link>
+                            <Nav.Link href='/doctors' className='text'>Doctors</Nav.Link>
+                            <Nav.Link href='/login' className='text'>Login</Nav.Link>
 
 
                         </Navbar.Collapse>

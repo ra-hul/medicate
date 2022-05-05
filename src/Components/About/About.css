@@ -1,0 +1,52 @@
+.docgroup {
+    display: flex;
+}
+
+/* .docgroup img {
+    margin-left: 50px;
+} */
+
+.title {
+    letter-spacing: 0.04em;
+    font-family: var(--title-fonts);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    position: relative;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    background: #d3e9fb;
+    padding: 4px 8px;
+    margin: 0 270px 5px;
+    display: inline-block;
+    border-radius: 3px;
+
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    z-index: 9;
+    color: var(--dark-color);
+    padding: 0;
+    margin: 0 0;
+    position: relative;
+    display: block;
+
+}
+
+.ul-order {
+    display: flex;
+}
+
+h2 {
+    margin-bottom: 0px;
+    margin-right: 400px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-style: normal;
+    line-height: 40px;
+}
