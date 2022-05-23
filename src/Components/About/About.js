@@ -31,10 +31,7 @@ const About = () => {
                 </div>
                 <h2>+8801775675786</h2>
                 <p style={{ marginRight: '400px', color: '#0693e3' }}>Do you have any quetion?</p>
-                <div className="">
-                    <p className='title'>Our Services </p>
-
-                </div>
+               
             </div>
         </div>
 
