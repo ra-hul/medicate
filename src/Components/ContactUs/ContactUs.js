@@ -38,7 +38,7 @@ const ContactUs = () => {
   </Row>
   <Form.Group controlId="formGridAddress2">
 
-<Form.Control className='appointment-textarea' type="text" placeholder="Type Appointment Note" />
+<Form.Control className='appointment-textarea' type="text" placeholder="Type Your Queries" />
 </Form.Group>
 
   <Button variant="primary" type="submit">
