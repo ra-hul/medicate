@@ -16,7 +16,7 @@ const Doctors = () => {
   <Card className="doc" >
     <Card.Img variant="top" src={doc1} />
     <Card.Body>
-      <Card.Title>Dr. Jamson</Card.Title>
+      <Card.Title>Dr. Naidan Smith</Card.Title>
       <Card.Text>
       Doctor of Osteopathic Medicine || D.O. || Pharm.D. ||
       </Card.Text>
@@ -30,7 +30,7 @@ const Doctors = () => {
   <Card className="doc">
     <Card.Img variant="top" src={doc2} />
     <Card.Body>
-      <Card.Title>Dr. Trisha</Card.Title>
+      <Card.Title>Dr. Danial Frankie</Card.Title>
       <Card.Text>
         This card has supporting text below as a natural lead-in to additional
         content.{' '}
@@ -59,7 +59,7 @@ const Doctors = () => {
   <Card className="doc">
     <Card.Img variant="top" src={doc4} />
     <Card.Body>
-      <Card.Title>Dr. Habibullah Bahsar</Card.Title>
+      <Card.Title>Dr. Jason Roy</Card.Title>
       <Card.Text>
       Bachelor of Medicine, Bachelor of Surgery || MBBS, BMBS
       </Card.Text>
@@ -73,7 +73,7 @@ const Doctors = () => {
   <Card className="doc">
     <Card.Img variant="top" src={doc5} />
     <Card.Body>
-      <Card.Title>Dr. Paul</Card.Title>
+      <Card.Title>Dr. Alexa John</Card.Title>
       <Card.Text>
       D.Ac. || D.A.T || Au.D. || D.M. (DM), also in Latin
       </Card.Text>

@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import React from 'react';
 import Home from './Components/Home/Home';
@@ -11,6 +11,7 @@ import About from './Components/About/About';
 import ContactUs from './Components/ContactUs/ContactUs';
 import Login from './Components/Login/Login';
 import Doctors from './Components/Doctors/Doctors';
+import Register from './Components/Register/Register';
 
 
 
@@ -38,6 +39,10 @@ function App() {
           </Route>
           <Route exact path="/login">
             <Login></Login>
+          </Route>
+          <Route exact path="/register">
+     
+           <Register></Register>
           </Route>
           <Route exact path="/doctors">
             <Doctors></Doctors>
