@@ -13,6 +13,7 @@ import Login from './Components/Login/Login';
 import Doctors from './Components/Doctors/Doctors';
 import Register from './Components/Register/Register';
 import AuthProvider from './Context/AuthProvider';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 
 
 
@@ -29,9 +30,9 @@ function App() {
           <Route path='/home' >
             <Home></Home>
           </Route>
-          <Route exact path="/Appointments">
+          <PrivateRoute exact path="/Appointments">
             <Appointments></Appointments>
-          </Route>
+          </PrivateRoute>
           <Route exact path="/about">
             <About></About>
           </Route>
