@@ -12,14 +12,15 @@ import ContactUs from './Components/ContactUs/ContactUs';
 import Login from './Components/Login/Login';
 import Doctors from './Components/Doctors/Doctors';
 import Register from './Components/Register/Register';
+import AuthProvider from './Context/AuthProvider';
 
 
 
 function App() {
   return (
     <div className="App">
-
-      <Router>
+    <AuthProvider>
+    <Router>
         <Header></Header>
         <Switch>
           <Route exact path="/">
@@ -50,6 +51,8 @@ function App() {
 
         </Switch>
       </Router>
+    </AuthProvider>
+     
     </div>
   );
 }

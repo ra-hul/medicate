@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Container, Nav, Navbar, } from 'react-bootstrap';
-import useFirebase from '../../hooks/useFirebase';
+import useAuth from '../../hooks/useAuth';
+
 import logo from "../../images/navbar.jpg";
 
 import './Header.css'
@@ -8,7 +9,8 @@ import './Header.css'
 
 
 const Header = () => {
-    const {user,logOut} = useFirebase();
+    const {user, logOut}= useAuth();
+ 
     return (
         <>
 
@@ -28,6 +30,9 @@ const Header = () => {
                             <Nav.Link href='/about' className='text'>About</Nav.Link>
                             <Nav.Link href='/ContactUs' className='text'>Contact Us</Nav.Link>
                             <Nav.Link href='/doctors' className='text'>Doctors</Nav.Link>
+                            { user.email && 
+                                <span style={{color: 'white'}}>hello {user.displayName}</span>
+                            }
                             {
                                 user.email?
                                 <Button onClick={logOut}>log out</Button>
