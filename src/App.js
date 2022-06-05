@@ -27,7 +27,7 @@ function App() {
           <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route path='/home' >
+          <Route exact path='/home' >
             <Home></Home>
           </Route>
           <PrivateRoute exact path="/Appointments">
